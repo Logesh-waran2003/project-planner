@@ -5,7 +5,7 @@ import { CardData, ColumnData } from "../types";
 
 const Page = () => {
   const [cards, setCards] = useState<CardData[]>(cardData);
-  const [kanbans, setKanbans] = useState<ColumnData[]>(columnData);
+  const [kanbans] = useState<ColumnData[]>(columnData);
   const [draggedCard, setDraggedCard] = useState<CardData | null>();
 
   const onDropCard = (id: string) => {
