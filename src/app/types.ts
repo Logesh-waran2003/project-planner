@@ -1,5 +1,5 @@
 type CardData = {
-  card_id: number;
+  card_id: string;
   title: string;
   description: string;
   column: string;
