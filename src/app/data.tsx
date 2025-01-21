@@ -1,4 +1,6 @@
-const columnData = [
+import { CardData, ColumnData } from "./types";
+
+const columnData: ColumnData[] = [
   {
     id: "todo",
     title: "To Do",
@@ -11,9 +13,13 @@ const columnData = [
     id: "done",
     title: "Done",
   },
+  {
+    id: "deployed",
+    title: "Deployed",
+  },
 ];
 
-const cardData = [
+const cardData: CardData[] = [
   {
     card_id: 1,
     title: "Task 1",
